@@ -132,7 +132,7 @@ App.DesignsRoute = Ember.Route.extend({
 App.IndexController = Ember.Controller.extend({
 
 	fullname: 'ben lerner',
-	shortdescription: 'hacker (not a slacker)',
+	shortdescription: 'hacker / full stacker',
 	twitter: 'https://twitter.com/benjamin_lerner',
 	github: github,
 	linkedin: 'https://www.linkedin.com/in/bensenberner',
@@ -149,7 +149,7 @@ App.AboutController = Ember.Controller.extend({
 	mydescription: ['Likes tech and chillin'],
 	picture: 'imgs/profile.png',
 	aboutme: 'about me',
-	aboutmeText: ['hey I am ben and I like to chill hmu', 'yeah im pretty much all about hanging out and having fun']
+	aboutmeText: ['Aspiring software engineer', 'Big fan of Python', 'Former Nintendo addict', 'Cottage cheese fanatic']
 
 });
 

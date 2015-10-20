@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Ben Lerner &bull; Hacker (not a slacker)</title>
+	<title>Ben Lerner &bull; Coder</title>
 	<meta name="Keywords" content="computer science, student, Ben, Lerner, software, coding, programming">
   <meta name="description" content="Ben Lerner, student at Columbia University">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -31,14 +31,15 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					{{#link-to 'index' class="navbar-brand"}}<img src="imgs/pkm.png" class="img-responsive pkm"/>{{/link-to}}
+					{{#link-to 'index' class="navbar-brand"}}<img src="imgs/bl.png" class="img-responsive pkm"/>{{/link-to}}
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li>{{#link-to 'index'}}hello{{/link-to}}</li>
+						<li>{{#link-to 'index'}}home{{/link-to}}</li>
 						<li>{{#link-to 'about'}}about{{/link-to}}</li>
-						<li>{{#link-to 'projects'}}projects{{/link-to}}</li>
-						<li>{{#link-to 'designs'}}design{{/link-to}}</li>
+            <!--TODO: change these for you later-->
+						<!--<li>{{#link-to 'projects'}}projects{{/link-to}}</li>-->
+						<!--<li>{{#link-to 'designs'}}design{{/link-to}}</li>-->
 						<li><a href="benLernerResume.pdf">resume</a></li>
 					</ul>
 				</div>
@@ -48,11 +49,11 @@
 		<div class="container">
 			{{outlet}}
 		</div>
-		<div class="container">
-			<div class="row footer">
-				<h6 class="text-center">Built by Ben Lerner w/ ember.js and help from Panashe Hahachi</h6>
-			</div>
-		</div>
+		<!--<div class="container">-->
+			<!--<div class="row footer">-->
+				<!--<h6 class="text-center">Built by Ben Lerner w/ ember.js and help from Panashe Hahachi</h6>-->
+			<!--</div>-->
+		<!--</div>-->
 	</div>
 
 </script>
@@ -71,15 +72,16 @@
 		<h6 class="text-center social"><a target="_blank" {{bind-attr href="twitter"}}>twitter&nbsp;|&nbsp;</a>
 			<a target="_blank" {{bind-attr href="linkedin"}}>linkedin&nbsp;|&nbsp;</a>
 			<a target="_blank" {{bind-attr href="github"}}>github&nbsp;|&nbsp;</a>
-			<a target="_blank" {{bind-attr href="quora"}}>quora</a></h6>
+			<a target="_blank" {{bind-attr href="quora"}}>quora</a>
+    </h6>
 			<div class="bardesign3">
 				<img src="imgs/bardesign3.png" class="img-responsive"/>
 			</div>
 
-			<div class="site-links">
+			<!--<div class="site-links">-->
 
-				<h6><a target="_blank" href="old/index.html">view my old site</a></h6>
-			</div>
+				<!--<h6><a target="_blank" href="old/index.html">view my old site</a></h6>-->
+			<!--</div>-->
 
 		</div>
 	</script>
@@ -88,8 +90,9 @@
 	<script type="text/x-handlebars" data-template-name="about">
 		<div class="jumbotron">
 			<h1 class="name">{{firstname}} &bull; {{lastname}}</h1>
-			<h4><i>Pronounciation: {{pronounciation}}</i></h4>
-			<h4><i>Noun: {{mydescription}}</i></h4>
+      <!--TODO: Remove these-->
+			<!--<h4><i>Pronounciation: {{pronounciation}}</i></h4>-->
+			<!--<h4><i>Noun: {{mydescription}}</i></h4>-->
 			<hr>
 			<h4>School: {{school}}</h4>
 			<h4>Major: {{major}}</h4>
